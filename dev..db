@@ -1,0 +1,6 @@
+$body = @{
+    email = "adrhyan@estudante.ifms"
+    senha = "1233564"
+} | ConvertTo-Json -Depth 3
+
+Invoke-RestMethod -Uri "http://localhost:3000/usuarios/login" -Method Post -Body $body -ContentType "application/json"
