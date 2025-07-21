@@ -34,12 +34,9 @@ app.get("/areaAdmin", UsuarioController.verificarAutenticacao, UsuarioController
     });
 });
 
-app.listen(8000, (err) => {
-    if (err) {
-        console.log("Erro:" + JSON.stringify(err));
-    } else {
-        console.log("Aplicação rodando em http://localhost:8000");
-    }
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`Servidor rodando na porta ${PORT}`);
 });
 
 
