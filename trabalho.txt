@@ -1,0 +1,42 @@
+Inicie o projeto NodeJS:
+npm init -y
+
+Instalar modulo:
+npm i nome_modulo
+
+Iniciar servidor:
+npm start
+
+Iniciar o prisma:
+npm i prisma 
+npx prisma init
+
+Migrar a config. para o bd e arquivo de modulos:
+npx prisma migrate dev
+-nome para migração: createVeiculoModel
+
+migration: atualização nos módulos para enviar ao banco de dados
+
+visualisar bd:
+npx prisma studio
+
+prisma client 
+
+
+npm i
+npx prisma generate
+npm start
+
+
+PROVA:
+.body pega dados que vieram via post
+.query pega dados que vieram via get
+
+
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+
+migrar as alteraçoes o schema prima para o bd:
+npx prsima migrate dev
+create_usuario_model
+
+npm i bcryptjs
