@@ -6,3 +6,4 @@ CREATE TABLE "Veiculo" (
     "cor" TEXT NOT NULL,                             -- Campo obrigatório para a cor do veículo
     "ano" INTEGER NOT NULL                           -- Campo obrigatório para o ano do veículo
 );
+0000000000000000000000000000000000
